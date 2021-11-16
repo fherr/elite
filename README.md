@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("%s\n", elite.Generate())
+	fmt.Printf("%s\n", elite.GetRandomName())
 }
 ```
 
