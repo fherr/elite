@@ -1,6 +1,8 @@
 Elite Planet Name Generator
 ===========================
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/fherr/elite.svg)](https://pkg.go.dev/github.com/fherr/elite)
+
 Name Generator based on the Ian Bell's "text Elite" (see link below).
 
 
@@ -17,8 +19,24 @@ import (
 )
 
 func main() {
-	fmt.Printf("%s\n", elite.GetRandomName())
+	for i := 0; i < 10; i++ {
+		fmt.Printf("%s\n", elite.GetRandomName())
+	}
 }
+
+-----
+output:
+
+requgele
+ceinriar
+beatti
+orbe
+mamaxea
+leenso
+esbea
+enlais
+leraarar
+onusatma
 ```
 
 Links

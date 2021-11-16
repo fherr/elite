@@ -7,5 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("%s\n", elite.GetRandomName())
+	for i := 0; i < 10; i++ {
+		fmt.Printf("%s\n", elite.GetRandomName())
+	}
 }
